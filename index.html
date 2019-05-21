@@ -1,0 +1,32 @@
+<head>
+
+</head>
+
+<main>
+    <section class="intro">
+
+        <h1><code>YARN</code></h1>
+        <p>
+            yarn est un gestionnaire de paquets au même titre que npm
+            <br>
+            Il a l'avantage d'être plus rapide que npm pour installer les dependances.
+        </p>
+    </section>
+    <h3>pour passer de npm a yarn dans un projet :</h3>
+    <pre>npm install -g yarn</pre>
+    <section>
+        <p>il me suffit ensuite de taper :<code>yarn</code> pour installer mes dépendances
+            lorsqu'on installe les dependances pour la premiere fois cela va générer un fichier <code>yarn.lock</code>
+            <br><br>celui-ci est une représentation de toutes les dependances dont il a besoin avec les versions ainsi
+            qu'un chemin pour télécharger ces versions compressées donc il n'a pas besoin d'aller sur git ou autre. Si
+            vous essayez d'accéder à l'une de ces url vous téléchargerez automatiquement un fichier <code>tar.gz </code>
+
+        <p>Ce fichier la doit donc être versionner pour les autres personnes qui vont installer le projet, les
+            dépendances seront générées a partir de ce fichier lockfile.</p>
+
+        <p>Plus d'infos <a href="https://yarnpkg.com/lang/en/"> ici
+        </a></p>
+
+        </p>
+    </section>
+</main>
